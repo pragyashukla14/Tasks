@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
@@ -205,4 +205,4 @@ input[type=radio]:checked + .radio-group .radio-label {
 .checkbox-group .checkbox-label {
   cursor: pointer;
   vertical-align: middle;
-}/*# sourceMappingURL=styles.css.map */
+}
