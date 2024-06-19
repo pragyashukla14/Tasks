@@ -16,9 +16,7 @@
         return;
       }
   
-      // Simulate login process
       console.log('Logging in with', username, password);
-  
-      // Redirect to another page or show an error message
+
     });
   }
