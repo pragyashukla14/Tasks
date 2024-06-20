@@ -48,7 +48,7 @@ header {
 
 .logo {
   
-  align-items: center;
+  align-items: right;
 }
 
 .g-link {
@@ -68,8 +68,6 @@ header {
   color: white;
 }
 
-
-/*bottom navigator*/
 .g-link.active::after {
   content: '';
   position: absolute;
@@ -413,20 +411,4 @@ header {
   display: flex;
   padding: 10px;
   justify-content: space-around;
-}
-
-
-.other img.op{
-  opacity: 0.5;
-}
-
-.gray {
-  filter: grayscale(100%); 
-}
-.gray:hover {
-  filter: grayscale(100%) brightness(70%) drop-shadow(2px 2px 5px #000); 
-}
-
-.star:hover{
-  filter: grayscale(1%) brightness(90%) drop-shadow(2px 2px 5px #ecd981);
 }
