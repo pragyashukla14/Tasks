@@ -35,7 +35,6 @@ header {
  
 }
 
-
 .mainlogo {
   display: flex;
   align-items: center;
@@ -107,7 +106,6 @@ header {
   padding: 2px 6px;
   font-size: 8px;
 }
-
 .dropdown-content {
   display: none; 
   position: absolute;
@@ -119,37 +117,28 @@ header {
   z-index: 1; 
   margin-top: 5px;
 }
-
 .dropdown-content a {
   display: flex; 
   padding: 5px 10px;
-  color: #000; 
- 
+  color: #000;  
 }
-
-
-.foot {
+foot {
   display: flex;
   justify-content: center; 
   margin-top: 20px; 
 }
-
 .foot a {
   color: green; 
   text-decoration: none; 
   margin: 0 10px; 
 }
-
 .foot p {
   color: green; 
   margin: 0; 
 }
-
 .green-link:hover {
   text-decoration: underline; 
 }
-
-
 
 .footer {
   background-color: #b4b1b1;
@@ -157,24 +146,19 @@ header {
   text-align: center;
   color: black; 
 }
-
 .footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .footer img {
   width: 100px;
   height: auto; 
   margin-right: 10px; 
 }
-
 .footer p {
   margin: 0;
 }
-
-
 .SubHeading {
   background-color:#55e0a3;
   margin-top: 40px;
@@ -237,18 +221,15 @@ header {
 .left-text {
   margin: 0;
 }
-
 .dropdown-container {
   display: flex;
   align-items: center;
 }
-
 .dropdown {
   position: relative;
   display: flex;
   align-items: center;
 }
-
 .dropdown select {
   padding: 5px;
   font-size: 14px;
@@ -261,7 +242,6 @@ header {
   -moz-appearance: none;
   appearance: none; 
 }
-
 .dropdown .arrow-icon {
   position: absolute;
   right: -10px; 
@@ -286,14 +266,12 @@ header {
   top: 50%;
   transform: translateY(-50%);
 }
-
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
 }
-
 .box {
   width: 500px;
   margin: 10px;
@@ -301,7 +279,6 @@ header {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 .flexbox {
   display: flex;
   padding: 20px;
@@ -326,7 +303,6 @@ header {
   align-items: center;
   
 }
-
 .m1 {
   font-weight: bold;
   font-size: 0.8em;
@@ -337,31 +313,25 @@ header {
   text-overflow: ellipsis; 
   max-height: 78px;
 }
-
-
 .star {
   width: 24px;
   height: 24px;
 }
-
 .m2 {
   margin-top: 10px;
   color: gray;
   display: flex;
   font-weight: bold;
 }
-
 .dropdown2{
   color: black;
 }
-
 .dropdown2 option[disabled][selected] {
   color: gray;
 }
 .dropdown2:invalid {
   color: gray;
 }
-
 .dropdown2 {
   width: 90%;
   height: 30px;
@@ -370,9 +340,6 @@ header {
   text-align: left;
   font-size: 17px;
 }
-
-
-
 .e1 {
   margin-right: 10px;
   padding-right: 10px;
@@ -398,10 +365,6 @@ header {
   color: green;
   padding-left: 3px;
 }
-
-
-
-
 .other {
 
   height: 40px;
