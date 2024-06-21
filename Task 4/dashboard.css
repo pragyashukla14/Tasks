@@ -1,0 +1,338 @@
+    .menu-icon{
+        display: inline;
+        margin-left: 10px;
+    }
+  .mainlogo {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    
+    align-items: right;
+  }
+  
+  .logo-link {
+    color: #55e0a3;
+    text-decoration: dashed;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .logo-link:hover,
+  .logo-linkfocus {
+    color: white;
+  }
+  
+  .logo-link.active {
+    color: white;
+  }
+  
+  .logo-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border: none; 
+    
+  }
+  
+  .header-icon {
+    width: 24px;
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  .notification-number {
+    position: absolute;
+    bottom: 20;
+    right: 0;
+    background-color: rgb(27, 85, 247);
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 10px;
+  }
+  
+  .account-number {
+    position: absolute;
+    bottom: 20;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 8px;
+  }
+  .dropdown-content {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    right: 0;
+    border: 2px solid white;
+    background-color: #55e0a3;
+    padding: 10px;
+    z-index: 1; 
+    margin-top: 5px;
+  }
+  .dropdown-content a {
+    display: flex; 
+    padding: 5px 10px;
+    color: #000;  
+  }
+  foot {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+  }
+  .foot a {
+    color: green; 
+    text-decoration: none; 
+    margin: 0 10px; 
+  }
+  .foot p {
+    color: green; 
+    margin: 0; 
+  }
+  .green-link:hover {
+    text-decoration: underline; 
+  }
+  
+  .footer {
+    background-color: #b4b1b1;
+    padding: 10px 0; 
+    text-align: center;
+    color: black; 
+  }
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer img {
+    width: 100px;
+    height: auto; 
+    margin-right: 10px; 
+  }
+  .footer p {
+    margin: 0;
+  }
+  .SubHeading {
+    background-color:#55e0a3;
+    margin-top: 40px;
+    width: 95%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+  }
+  
+  .subheader-link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    position: relative;
+  }
+  
+  .subheader-link p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .active-indicator {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 5px;
+    background-color: black;
+    transition: left 1s;
+  }
+  
+  #courses-indicator {
+    left: 0;
+  }
+  
+  #classes-indicator {
+    left: 50%;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    font-size: small;
+    color: gray;
+  }
+  
+  .left-text {
+    margin: 0;
+  }
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+  }
+  .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .dropdown select {
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    margin-right: 20px;
+    border-bottom: 1px solid gray;
+    background: transparent; 
+    outline: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+  }
+  .dropdown .arrow-icon {
+    position: absolute;
+    right: -10px; 
+    pointer-events: none;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .dropdown::after {
+    content: "";
+    display:block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    pointer-events: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .box {
+    width: 500px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .flexbox {
+    display: flex;
+    padding: 20px;
+    min-height: 190px;
+  }
+  
+  .cover {
+    width: 130px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .m1 {
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 2px solid transparent;
+    max-width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    max-height: 78px;
+  }
+  .star {
+    width: 24px;
+    height: 24px;
+  }
+  .m2 {
+    margin-top: 10px;
+    color: gray;
+    display: flex;
+    font-weight: bold;
+  }
+  .dropdown2{
+    color: black;
+  }
+  .dropdown2 option[disabled][selected] {
+    color: gray;
+  }
+  .dropdown2:invalid {
+    color: gray;
+  }
+  .dropdown2 {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: left;
+    font-size: 17px;
+  }
+  .e1 {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid gray;
+    font-size: normal;
+    font-weight: normal;
+  }
+  
+  .e2 {
+    display: flex;
+    font-size: normal;
+    font-weight: normal;
+  }
+  
+  .e3 {
+    color: black;
+    font-weight: normal;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+  
+  .green {
+    color: green;
+    padding-left: 3px;
+  }
+  .other {
+  
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+  }

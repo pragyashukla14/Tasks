@@ -1,0 +1,334 @@
+<html>
+    <title>Quantum Login</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <body>
+        <div class="mainlogo">
+            <img src="header logo.PNG" alt="Quantum Logo">
+        </div>
+    </body>
+    <div class="logo" id="header-links">
+        <a href="#" class="logo-link">DASHBOARD&nbsp;&nbsp;</a>
+        <a href="#" class="logo-link">CONTENT&nbsp;&nbsp;</a>
+        <a href="#" class="logo-link">USERS&nbsp;&nbsp;</a>
+        <a href="#" class="logo-link">REPORTS&nbsp;&nbsp;</a>
+        <a href="#" class="logo-link">ADMIN</a>
+        <a href="link_to_alerts_page" class="logo-link alerts-link">
+            <img src="alerts.svg" alt="alerts" class="header-icon">
+            <span class="notification-number">3</span>
+        </a>
+        <a href="link_to_announcements_page" class="logo-link alerts-link">
+            <img src="announcements.svg" alt="announcements" class="header-icon">
+            <span class="notification-number">1</span>
+        </a>
+        <a href="link_to_account_page" class="logo-link alerts-link">
+            <img src="account_circle.svg" alt="account_circle" class="header-icon">
+            <span class="account-number">T</span>
+        </a>
+        <div class="dropdown-content" id="dropdownContent">
+            <a href="#" class="logo-link">DASHBOARD&nbsp;&nbsp;</a>
+            <a href="#" class="logo-link">CONTENT&nbsp;&nbsp;</a>
+            <a href="#" class="logo-link">USERS&nbsp;&nbsp;</a>
+            <a href="#" class="logo-link">REPORTS&nbsp;&nbsp;</a>
+            <a href="#" class="logo-link">ADMIN</a>
+        </div>
+        <div class="menu-icon" onclick="toggleDropdown()">
+            <a href="#" id="h">
+                <img src="hamburger-menu.svg" alt="menu">
+            </a>
+        </div>
+    </div>
+    
+    <div class="SubHeading">
+        <a href="link_to_courses_page" class="subheader-link active" id="courses-link">
+            <img src="courses.svg" alt="courses" class="subheader-icon">
+            <p>4 Courses</p>
+        </a>
+        <a href="link_to_classes_page" class="subheader-link" id="classes-link">
+            <img src="classes.svg" alt="classes" class="subheader-icon">
+            <p>4 Classes</p>
+        </a>
+    </div>
+    <div class="container">
+        <p class="left-text">Showing 4 of 4 courses</p>
+        <div class="dropdown-container">
+            <label for="sort-options">Sort by: </label>
+            <div class="dropdown">
+                <select id="sort-options" name="sort-options">
+                    <option value="course-name">Course Name</option>
+                    <option value="date">Date</option>
+                </select>
+                <img src="sort.svg" alt="up arrow" class="arrow-icon">
+            </div>
+        </div>
+    </div>
+
+
+     <div class="cards">
+        <div class="box">
+            <div class="flexbox">
+                <img src="imageMask.png" alt="" class="cover">
+                
+                <div class="info">
+                    <div class="header2">
+                        <div class="m1">Acceleration</div>
+                        <img src="favourite.svg" alt="Favourite" class="star">
+                    </div>
+                    
+                    <div class="m2">
+                        <div class="e1">
+                            Physics
+                        </div>
+                        <div class="e2">
+                            Grade 7
+                            <div class="green">+2</div>
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <div class="e3">
+                            <strong>4</strong>
+                            Units
+                        </div>
+                        <div class="e3">
+                            <strong>18</strong>
+                            Lessons
+                        </div>
+                        <div class="e3">
+                            <strong>24</strong>
+                            Topics
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <select name="cars" id="cars" class="dropdown2">
+                            <option value="volvo">Mr. Frank's Class B</option>
+                            <option value="saab">option_2</option>
+                        </select>
+                    </div>
+                    <div class="m2">
+                        <div class="e1">
+                            50 Students
+                        </div>
+                        <div class="e2">
+                            21-Jan-2020 - 21-Aug-2020
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other">
+                <div>
+                    <img src="preview.svg" alt="">
+                </div>
+                <div>
+                    <img src="manage course.svg" alt="">
+                </div>
+                <div>
+                    <img src="grade submissions.svg" alt="">
+                </div>
+                <div>
+                    <img src="reports.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="box">
+            <div class="flexbox">
+                <img src="imageMask-1.png" alt="" class="cover">
+                
+                <div class="info">
+                    <div class="header2">
+                        <div class="m1">Displacement, Velocity and Speed</div>
+                        <img src="favourite.svg" alt="Favourite" class="star">
+                    </div>
+                    
+                    <div class="m2">
+                        <div class="e1">
+                            Physics 2
+                        </div>
+                        <div class="e2">
+                            Grade 6
+                            <div class="green">+3</div>
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <div class="e3">
+                            <strong>2</strong>
+                            Units
+                        </div>
+                        <div class="e3">
+                            <strong>15</strong>
+                            Lessons
+                        </div>
+                        <div class="e3">
+                            <strong>20</strong>
+                            Topics
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <select name="cars" id="cars" class="dropdown2">
+                            <option value="" disabled >No Classes</option>
+                        </select>
+                    </div>
+                    
+            
+                </div>
+            </div>
+            <div class="other">
+                <div>
+                    <img src="preview.svg" alt="">
+                </div>
+                <div>
+                    <img src="manage course.svg" alt="" class="op">
+                </div>
+                <div>
+                    <img src="grade submissions.svg" alt=""  class="op">
+                </div>
+                <div>
+                    <img src="reports.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <div class="flexbox">
+                <img src="imageMask-3.png" alt="" class="cover">
+                
+                <div class="info">
+                    <div class="header2">
+                        <div class="m1">Introduction to Biology: Micro Organisms and how they affect the other Life Systems in En</div>
+                        <img src="favourite.svg" alt="Favourite" class="star">
+                    </div>
+                    
+                    <div class="m2">
+                        <div class="e1">
+                            Biology
+                        </div>
+                        <div class="e2">
+                            Grade 4
+                            <div class="green">+1</div>
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <div class="e3">
+                            <strong>5</strong>
+                            Units
+                        </div>
+                        <div class="e3">
+                            <strong>16</strong>
+                            Lessons
+                        </div>
+                        <div class="e3">
+                            <strong>22</strong>
+                            Topics
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <select name="cars" id="cars" class="dropdown2">
+                            <option value="volvo">All Classes</option>
+                            <option value="saab">option_2</option>
+                        </select>
+                    </div>
+                    <div class="m2">
+                        <div class="e1">
+                            300 Students
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="other">
+                <div>
+                    <img src="preview.svg" alt="">
+                </div>
+                <div>
+                    <img src="manage course.svg" alt="" class="op">
+                </div>
+                <div>
+                    <img src="grade submissions.svg" alt="" class="op">
+                </div>
+                <div>
+                    <img src="reports.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="flexbox">
+                <img src="imageMask-2.png" alt="" class="cover">
+                
+                <div class="info">
+                    <div class="header2">
+                        <div class="m1">Introduction to High School Mathematics</div>
+                        <img src="favourite.svg" alt="Favourite" class="star gray">
+                    </div>
+                    
+                    
+                    <div class="m2">
+                        <div class="e1">
+                            Mathematics 
+                        </div>
+                        <div class="e2">
+                            Grade 8
+                            <div class="green">+3</div>
+                        </div>
+                    </div>
+                    
+                    <div class="m2">
+                        <select name="cars" id="cars" class="dropdown2">
+                            <option value="volvo">Mr. Frank's Class A</option>
+                            <option value="saab">option_2</option>
+                        </select>
+                    </div>
+                    <div class="m2">
+                        <div class="e1">
+                            44 Students
+                        </div>
+                        <div class="e2">
+                            14-Oct-2019 - 20-Oct-2020
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="other">
+                <div>
+                    <img src="preview.svg" alt="">
+                </div>
+                <div>
+                    <img src="manage course.svg" alt="">
+                </div>
+                <div>
+                    <img src="grade submissions.svg" alt="">
+                </div>
+                <div>
+                    <img src="reports.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <div class="foot">
+        <a href="#" class="green-link">About</a>
+        <p>|</p>
+        <a href="#" class="green-link">Contact Us</a>
+    </div>
+    <br>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="logo used in footer.svg" alt="Footer Logo">
+            <p>Copyright &copy; | 2020-2021 <b>Zeus Systems Pvt. Ltd.</b> All rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+</html>
